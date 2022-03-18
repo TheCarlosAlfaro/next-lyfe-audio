@@ -19,14 +19,10 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Search Library</h2>
-            <p>Over 3,000 tracks to choose from.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Custom Music</h2>
-            <p>
-              Do you need a custom song made on demand for a particular event?
-            </p>
           </a>
 
           <a
@@ -34,17 +30,6 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Search Assist</h2>
-            <p>Let us find the right music for you!</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Subscribe</h2>
-            <p>
-              Subscribe today and gain instant access to our entire library.
-            </p>
           </a>
         </div>
       </main>
@@ -55,10 +40,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Copyright © Next Lyfe Audio
         </a>
       </footer>
     </div>
